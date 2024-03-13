@@ -1,0 +1,285 @@
+header {
+  background-color: #265073;
+  display: flex;
+  flex-direction: column;
+}
+.branding{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.branding a{
+  text-decoration: none;
+  display: block;
+  gap: 20px;
+  cursor: pointer;
+
+}
+
+/*ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 400;
+    
+}
+header ul li{
+    margin: 10px;
+    color: #D79F55;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+}*/
+/*nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+  height: 72px;
+  background: #265073;
+  transition: 0.3s;
+}*/
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #D79F55;
+  width: 20%;
+}
+
+nav ul li a:hover {
+  color: #9AD0C2;
+}
+nav .visible{
+  top: 0;
+  translate: 0;
+}
+.enlaces{
+  color: #D79F55;
+}
+.enlaces:hover{
+  color: #9AD0C2;
+}
+
+header img {
+  width: 120px;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700*/
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: #2D9596;
+
+}
+
+body h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Protest Strike", sans-serif;
+  font-style: normal;
+}
+
+body h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Protest Strike", sans-serif;
+  font-style: normal;
+}
+
+main h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Protest Riot", sans-serif;
+  font-style: normal;
+}
+
+body h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Protest Riot", sans-serif;
+  font-style: normal;
+  background-color: #D79F55;
+  color: #265073;
+  width: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.seccion {
+  background-color: #9AD0C2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px;
+  border: 4px double black;
+  border-radius: 10px;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  text-align: justify;
+}
+
+p {
+  margin: 20px;
+}
+
+main img {
+  width: 220px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 5px;
+
+}
+
+.frase {
+  background-color: whitesmoke;
+  margin: 0px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.derechos-de-autor {
+  background-color: #F1FADA;
+  backface-visibility: hidden;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  background-color: #265073;
+  color: #F1FADA;
+  display: flex;
+  flex-direction: column;
+  align-items: a;
+}
+
+samp {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subir {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  gap: 10px;
+  color: #265073;
+}*/
+.pages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn a{
+  text-decoration: none;
+  color: black;
+}
+footer{
+  background-color: #F1FADA;
+}
+
+.fa{
+  color: #D79F55;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  color: #265073;
+  opacity: 0.7;
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 380px;
+  background: #9AD0C2;
+  display: flex;
+  box-shadow: 0 15px 45px #265073;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.card:hover{
+  width: 600px;
+}
+.card .imgBx{
+  position: relative;
+  min-width: 300px;
+}
